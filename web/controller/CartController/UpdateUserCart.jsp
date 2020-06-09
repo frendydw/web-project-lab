@@ -13,5 +13,5 @@
         e.printStackTrace();
     }
 
-    response.sendRedirect("/AquaPets/web/controller/TransactionController/InsertTransaction.jsp?status=Pending");
+    response.sendRedirect("/web-project-lab/web/controller/TransactionController/InsertTransaction.jsp?status=Pending");
 %>

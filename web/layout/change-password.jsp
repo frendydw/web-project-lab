@@ -20,7 +20,7 @@
         if (role == null) {
         %>
             You are not authorized for this page!
-            <a href="/AquaPets/web/index.jsp">Back to Home</a>
+            <a href="/web-project-lab/web/index.jsp">Back to Home</a>
         <%
         return;
         }

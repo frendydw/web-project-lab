@@ -15,5 +15,5 @@
         e.printStackTrace();
     }
 
-    response.sendRedirect("/AquaPets/web/layout/detail-product.jsp?id="+product_id+"&status=success&message=Review Updated!");
+    response.sendRedirect("/web-project-lab/web/layout/detail-product.jsp?id="+product_id+"&status=success&message=Review Updated!");
 %>

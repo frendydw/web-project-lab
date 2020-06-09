@@ -10,5 +10,5 @@
         e.printStackTrace();
     }
 
-    response.sendRedirect("/AquaPets/web/layout/manage-user.jsp?status=success&message=User Deleted!");
+    response.sendRedirect("/web-project-lab/web/layout/manage-user.jsp?status=success&message=User Deleted!");
 %>

@@ -20,6 +20,6 @@
 
 
 
-    response.sendRedirect("/AquaPets/web/layout/detail-product.jsp?id=" + id + "&status=success&message="+message);
+    response.sendRedirect("/web-project-lab/web/layout/detail-product.jsp?id=" + id + "&status=success&message="+message);
 %>
 

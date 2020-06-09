@@ -17,6 +17,6 @@
 
     new Cart().updateTransaction(user_id, transaction.last().getId());
 
-    response.sendRedirect("/AquaPets/web/layout/view-cart.jsp?status=success&message=Carts Updated!");
+    response.sendRedirect("/web-project-lab/web/layout/view-cart.jsp?status=success&message=Carts Updated!");
 %>
 

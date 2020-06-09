@@ -15,7 +15,7 @@
 		String role=(String)session.getAttribute("role");
 	%> 
 	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
-		<a class="navbar-brand text-white" href="/AquaPets/web/index.jsp">Aqua Pets</a>
+		<a class="navbar-brand text-white" href="/web-project-lab/web/index.jsp">Aqua Pets</a>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
@@ -28,11 +28,11 @@
 									Catalog
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=All Categories">All Products</a>
+										<a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=All Categories">All Products</a>
 										<div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Fish">Fish</a>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Accessories">Accessories</a>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Other">Other</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Fish">Fish</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Accessories">Accessories</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Other">Other</a>
 									</div>
 								</li>
 							<%
@@ -44,10 +44,10 @@
 								Manage
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp">Catalog</a>
+									<a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp">Catalog</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="/AquaPets/web/layout/manage-user.jsp">User</a>
-									<a class="dropdown-item" href="/AquaPets/web/layout/manage-transaction.jsp">Transaction</a>
+									<a class="dropdown-item" href="/web-project-lab/web/layout/manage-user.jsp">User</a>
+									<a class="dropdown-item" href="/web-project-lab/web/layout/manage-transaction.jsp">Transaction</a>
 								</div>
 							</li>
 						<%
@@ -59,11 +59,11 @@
 								Catalog
 								</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=All Categories">All Products</a>
+										<a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=All Categories">All Products</a>
 										<div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Fish">Fish</a>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Accessories">Accessories</a>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Other">Other</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Fish">Fish</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Accessories">Accessories</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Other">Other</a>
 									</div>
 							</li>
 						<%
@@ -72,7 +72,7 @@
 				%>	
 	
 			</ul>
-			<form class="form-inline my-2 my-lg-0" action="/AquaPets/web/layout/manage-product.jsp">
+			<form class="form-inline my-2 my-lg-0" action="/web-project-lab/web/layout/manage-product.jsp">
 				<input class="form-control mr-sm-2 text-black" name="product_name" type="search" placeholder="Search" aria-label="Search">
 				<button class="btn btn-outline-light my-2 my-sm-0 text-black" type="submit">Search</button>
 			</form>
@@ -97,9 +97,9 @@
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<div>
-										<a class="dropdown-item" href="/AquaPets/web/layout/profile.jsp">Profile</a>
+										<a class="dropdown-item" href="/web-project-lab/web/layout/profile.jsp">Profile</a>
 										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="/AquaPets/web/session/logout.jsp">Logout</a>
+										<a class="dropdown-item" href="/web-project-lab/web/session/logout.jsp">Logout</a>
 									</div>
 								</div>
 							</li>
@@ -113,11 +113,11 @@
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<div>
-										<a class="dropdown-item" href="/AquaPets/web/layout/profile.jsp">Profile</a>
-										<a class="dropdown-item" href="/AquaPets/web/layout/view-cart.jsp">Cart</a>
-										<a class="dropdown-item" href="/AquaPets/web/layout/manage-transaction.jsp">Transaction</a>
+										<a class="dropdown-item" href="/web-project-lab/web/layout/profile.jsp">Profile</a>
+										<a class="dropdown-item" href="/web-project-lab/web/layout/view-cart.jsp">Cart</a>
+										<a class="dropdown-item" href="/web-project-lab/web/layout/manage-transaction.jsp">Transaction</a>
 										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="/AquaPets/web/session/logout.jsp">Logout</a>
+										<a class="dropdown-item" href="/web-project-lab/web/session/logout.jsp">Logout</a>
 									</div>
 								</div>
 							</li>
@@ -130,7 +130,7 @@
 				<%
 					if (role == null) {
 						%>
-							<a class="btn btn-outline-light my-2 my-sm-0 text-black" href="/AquaPets/web/layout/login.jsp" role="button" style="width: 80px">Login</a>
+							<a class="btn btn-outline-light my-2 my-sm-0 text-black" href="/web-project-lab/web/layout/login.jsp" role="button" style="width: 80px">Login</a>
 						<%
 					}
 				%>
@@ -155,12 +155,12 @@
 			<div class="col border p-3">
 				<p style="font-size:20px; font-weight: bold;">Purchase Fish</p>
 				<p>With a wide variety of freshwater fish species available, we carry tropical fish as well as cold water fish that are perfect for planted tank setups or cute desktop aquarium</p>
-				<a class="btn btn-primary text-white" role="button" href="/AquaPets/web/layout/manage-product.jsp?product_category=Fish">See Fish</a>
+				<a class="btn btn-primary text-white" role="button" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Fish">See Fish</a>
 			</div>
 			<div class="col border p-3 ml-4">
 				<p style="font-size:20px; font-weight: bold;">Purchase Accessories</p>
 				<p>Start dreaming of your new underwater world with a wide variety of small decorative fake plant that will liven your fish tank without needing extra care</p>
-				<a class="btn btn-primary text-white" role="button" href="/AquaPets/web/layout/manage-product.jsp?product_category=Accessories">See Accessories</a>
+				<a class="btn btn-primary text-white" role="button" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Accessories">See Accessories</a>
 			</div>
 			<div class="col-md-2">
 				<p style="font-size:20px; font-weight: bold;">Site Status</p>

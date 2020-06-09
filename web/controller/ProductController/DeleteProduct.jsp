@@ -11,5 +11,5 @@
         e.printStackTrace();
     }
 
-    response.sendRedirect("/AquaPets/web/layout/manage-product.jsp?status=success&message=Product Deleted!");
+    response.sendRedirect("/web-project-lab/web/layout/manage-product.jsp?status=success&message=Product Deleted!");
 %>

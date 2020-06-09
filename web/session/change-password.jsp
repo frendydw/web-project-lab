@@ -13,7 +13,7 @@
 
 		<p style="font-size: 30px">Change Password Success!</p>
 		<p style="font-size: 40px">Please Re-Login!!!</p>
-		<a class="btn btn-primary" href="/AquaPets/web/layout/login.jsp" role="button">Login</a>
+		<a class="btn btn-primary" href="/web-project-lab/web/layout/login.jsp" role="button">Login</a>
 	</div>
 	
 

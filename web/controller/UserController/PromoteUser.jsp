@@ -14,5 +14,5 @@
 
     user.promote(id);
 
-    response.sendRedirect("/AquaPets/web/layout/manage-user.jsp?id=" + id + "&status=success&message=Successfully Promote User");
+    response.sendRedirect("/web-project-lab/web/layout/manage-user.jsp?id=" + id + "&status=success&message=Successfully Promote User");
 %>

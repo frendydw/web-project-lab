@@ -82,6 +82,6 @@
 
     product.update();
 
-    response.sendRedirect("/AquaPets/web/layout/manage-product.jsp?id=" + id + "&status=success&message=Successfully Update Product's Data");
+    response.sendRedirect("/web-project-lab/web/layout/manage-product.jsp?id=" + id + "&status=success&message=Successfully Update Product's Data");
 %>
 

@@ -83,6 +83,6 @@
     product.insert();
 
 
-    response.sendRedirect("/AquaPets/web/layout/manage-product.jsp");
+    response.sendRedirect("/web-project-lab/web/layout/manage-product.jsp");
 %>
 

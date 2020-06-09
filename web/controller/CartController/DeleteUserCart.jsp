@@ -18,5 +18,5 @@
         e.printStackTrace();
     }
 
-    response.sendRedirect("/AquaPets/web/layout/view-cart.jsp?status=success&message=Carts Emptied!");
+    response.sendRedirect("/web-project-lab/web/layout/view-cart.jsp?status=success&message=Carts Emptied!");
 %>

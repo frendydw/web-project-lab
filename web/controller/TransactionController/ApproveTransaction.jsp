@@ -12,5 +12,5 @@
         e.printStackTrace();
     }
 
-    response.sendRedirect("/AquaPets/web/layout/detail-transaction.jsp?transaction_id=" + transaction_id);
+    response.sendRedirect("/web-project-lab/web/layout/detail-transaction.jsp?transaction_id=" + transaction_id);
 %>
