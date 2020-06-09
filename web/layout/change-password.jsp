@@ -26,7 +26,7 @@
         }
     %>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand text-white" href="/AquaPets/web/index.jsp">Aqua Pets</a>
+        <a class="navbar-brand text-white" href="/web-project-lab/web/index.jsp">Aqua Pets</a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -39,11 +39,11 @@
                                     Catalog
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=All Categories">All Products</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=All Categories">All Products</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Fish">Fish</a>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Accessories">Accessories</a>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Other">Other</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Fish">Fish</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Accessories">Accessories</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Other">Other</a>
                                     </div>
                                 </li>
                             <%
@@ -55,10 +55,10 @@
                                 Manage
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp">Catalog</a>
+                                    <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp">Catalog</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="/AquaPets/web/layout/manage-user.jsp">User</a>
-                                    <a class="dropdown-item" href="/AquaPets/web/layout/manage-transaction.jsp">Transaction</a>
+                                    <a class="dropdown-item" href="/web-project-lab/web/layout/manage-user.jsp">User</a>
+                                    <a class="dropdown-item" href="/web-project-lab/web/layout/manage-transaction.jsp">Transaction</a>
                                 </div>
                             </li>
                         <%
@@ -70,11 +70,11 @@
                                 Catalog
                                 </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=All Categories">All Products</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=All Categories">All Products</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Fish">Fish</a>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Accessories">Accessories</a>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-product.jsp?product_category=Other">Other</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Fish">Fish</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Accessories">Accessories</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-product.jsp?product_category=Other">Other</a>
                                     </div>
                             </li>
                         <%
@@ -83,7 +83,7 @@
                 %>  
     
             </ul>
-            <form class="form-inline my-2 my-lg-0" action="/AquaPets/web/layout/manage-product.jsp">
+            <form class="form-inline my-2 my-lg-0" action="/web-project-lab/web/layout/manage-product.jsp">
                 <input class="form-control mr-sm-2 text-black" name="product_name" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-light my-2 my-sm-0 text-black" type="submit">Search</button>
             </form>
@@ -108,9 +108,9 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <div>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/profile.jsp">Profile</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/profile.jsp">Profile</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="/AquaPets/web/session/logout.jsp">Logout</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/session/logout.jsp">Logout</a>
                                     </div>
                                 </div>
                             </li>
@@ -124,11 +124,11 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <div>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/profile.jsp">Profile</a>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/view-cart.jsp">Cart</a>
-                                        <a class="dropdown-item" href="/AquaPets/web/layout/manage-transaction.jsp">Transaction</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/profile.jsp">Profile</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/view-cart.jsp">Cart</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/layout/manage-transaction.jsp">Transaction</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="/AquaPets/web/session/logout.jsp">Logout</a>
+                                        <a class="dropdown-item" href="/web-project-lab/web/session/logout.jsp">Logout</a>
                                     </div>
                                 </div>
                             </li>
@@ -141,7 +141,7 @@
                 <%
                     if (role == null) {
                         %>
-                            <a class="btn btn-outline-light my-2 my-sm-0 text-black" href="/AquaPets/web/layout/login.jsp" role="button" style="width: 80px">Login</a>
+                            <a class="btn btn-outline-light my-2 my-sm-0 text-black" href="/web-project-lab/web/layout/login.jsp" role="button" style="width: 80px">Login</a>
                         <%
                     }
                 %>
@@ -199,7 +199,7 @@
              
                             <div class="form-group text-center">
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="Save">
-                                <a class="btn btn-outline-secondary" href="/AquaPets/web/index.jsp">Cancel</a>
+                                <a class="btn btn-outline-secondary" href="/web-project-lab/web/index.jsp">Cancel</a>
                                 <p class="mt-3 text-center">&copy;2020 Copyright: AquaPets</p>
                             </div>
                         </form>
